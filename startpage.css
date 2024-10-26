@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:  #D3DADC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px; /* Space between the heading and the buttons */
+    font-size:60px;
+}
+
+
+
+
+button {
+    display: block; /* Ensure buttons stack vertically */
+    width: 200px; /* Optional: Set a fixed width for the buttons */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; /* Remove the border */
+    background-color:  #e07a5f; /* Button background color */
+    color: #ffffff; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    margin: 10px auto; /* Space between buttons and center alignment */
+}
+
+button:hover {
+    background-color: #d56b4d ; /* Button background color on hover */
+}
+
+.fade {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

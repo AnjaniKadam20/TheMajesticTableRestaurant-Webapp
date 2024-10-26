@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="createnewacc.css">
+</head>
+<body>
+    <div class="createnewacc-container">
+        <h1>Create New Account</h1>
+    
+        <form class="newacc-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="dob">DOB</label>
+                <input type="date" id="dobt" name="dob" required><br><br>
+        
+              
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>    
+
+
+            <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+           
+            
+            
+            <button type="submit" id="enterButton">Create New Account</button>
+        </form>
+    </div>
+    <script src="createnewacc.js"></script>
+
+</body>
+</html>

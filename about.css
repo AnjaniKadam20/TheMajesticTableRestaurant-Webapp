@@ -1,0 +1,182 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffe8ae;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.custom-header.navbar {
+    background-color: #4B585E !important; /* Ensure higher specificity and use of !important */
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Adjust the space between nav items */
+}
+
+.navbar-brand {
+    margin-right: auto;
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e07a5f !important;
+}
+
+.btn-primary2 {
+    margin-right: 10px !important;
+    background-color:   #e07a5f!important;
+    color:rgb(255, 255, 255) !important;
+}
+
+.btn-primary1 {
+    margin-left: 10px !important;
+    background-color: #e07a5f !important;
+    color:#ffffff !important;   
+}
+
+.btn-primary3 {
+    margin-right: 20px !important;
+    background-color: #e07a5f !important;
+    color:#ffffff !important;   
+}
+
+.btn.btn-primary2:hover,
+.btn.btn-primary1:hover,
+.btn.btn-primary3:hover {
+    background-color:#d56b4d  !important; /* Custom hover color */
+    border-color: #d56b4d  !important; /* Ensure border color matches hover color */
+}
+
+.ambient-dining {
+    background-color:#D3DADC ;
+    padding: 50px 0;
+}
+
+.ambient-dining .container {
+    display: flex;
+    align-items: center;
+}
+
+.ambient-dining .content {
+    flex: 1;
+    margin-right: 40px; /* Space between text and image */
+}
+
+.ambient-dining .content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.ambient-dining .content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ambient-dining .image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.ambient-dining .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.ambient-dining2 {
+    background-color:#D3DADC;
+    padding: 50px 0;
+}
+
+.ambient-dining2 .container {
+    display: flex;
+    flex-direction: row-reverse; /* Image on the left, text on the right */
+    align-items: center;
+}
+
+.ambient-dining2 .content {
+    flex: 1;
+    margin-left: 150px; /* Space between text and image */
+}
+
+.ambient-dining2 .content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.ambient-dining2 .content p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.ambient-dining2 .image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.ambient-dining2 .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.About_us-title{
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center; 
+}
+
+
+.button-booking2 {
+    background-color: #e07a5f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right:-540px;
+
+}
+
+.button-booking2:hover {
+    background-color: #d56b4d;
+}
+
+.cart_count {
+    position: absolute;
+    bottom:-5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 9px;
+    font-size: 14px;
+}
+.navbar-toggler {
+    border-color: white; /* Change border color to white */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M1 2h14M1 8h14M1 14h14'/%3E%3C/svg%3E");
+}
+
